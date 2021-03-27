@@ -171,7 +171,8 @@ class _AddBookItemButtomSheetState extends State<AddBookItemButtomSheet> {
                     borderRadius: BorderRadius.circular(10),
                   ),
                   onPressed: () async {
-                    cart.addItem(widget.bookId, widget.title, widget.price, _qty);
+                    cart.addItem(widget.bookId, widget.price,
+                        widget.thumbnailUrl, widget.title, _qty);
                     Navigator.of(context).pop();
 
                     await showFlash(

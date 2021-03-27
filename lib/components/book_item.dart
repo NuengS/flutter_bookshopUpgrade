@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bookshop/components/add_bookitem_buttomsheet.dart';
+import '../components/add_bookitem_buttomsheet.dart';
 import 'package:provider/provider.dart';
 import '../providers/cart_provider.dart';
 
