@@ -43,7 +43,7 @@ class Order with ChangeNotifier {
             .map((bk) => OrderItem.fromJson(bk)));
         notifyListeners();
       } else {
-        throw Exception('Failed to load books');
+        throw Exception('Failed to load order');
       }
     });
   }
